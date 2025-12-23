@@ -15,8 +15,6 @@ This project focuses on a comparative study of different architectures for Neura
 * **Architecture**: This model extends the standard Seq2Seq framework by adding an attention mechanism.
 * **Mechanism**: It uses Luong Attention to dynamically align decoder output with relevant encoder states, improving the model's ability to focus on specific parts of the input sequence.
 
-[Image of Luong Attention mechanism in Seq2Seq models]
-
 ### 3. Transformer Model
 * **Status**: The Transformer model task was not completed due to significant time and hardware limitations.
 * **Intended Approach**: The goal was to implement a model that replaces recurrence with self-attention mechanisms to allow for better parallelization and capturing of long-range dependencies.
